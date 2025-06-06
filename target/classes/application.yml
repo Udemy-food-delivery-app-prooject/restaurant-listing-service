@@ -1,9 +1,0 @@
-server:
-  port: 9091
-
-spring:
-  profiles:
-    active: local
-
-  application:
-    name: RESTAURANT-LISTING-SERVICE
