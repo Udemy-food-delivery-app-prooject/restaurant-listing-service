@@ -1,0 +1,70 @@
+# === Maven build ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.*
+
+# === STS (Spring Tool Suite) ===
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === Ignore MySQL Data Directory ===
+mysql/
+
+# === Eclipse ===
+*.launch
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# === VS Code ===
+.vscode/
+
+# === Logs ===
+*.log
+logs/
+spring.log
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.env
+docker-compose.override.yml
+docker-compose.local.yml
+
+# === Test results ===
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# === Custom build ===
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
